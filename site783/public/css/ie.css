@@ -1,0 +1,76 @@
+@font-face {
+  src: url("../fonts/d_b.eot");
+  font-family: d_b;
+}
+@font-face {
+  src: url("../fonts/d_b_l.eot");
+  font-family: d_b_l;
+}
+@font-face {
+  src: url("../fonts/tg.eot");
+  font-family: tg;
+}
+@font-face {
+  src: url("../fonts/mpr_ie.ttf");
+  font-family: mpr;
+}
+.outer-header {
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f44620', endColorstr='#ff5c2d',GradientType=0 );
+}
+
+.top-nav li {
+  display: inline;
+}
+
+.slogan {
+  font-family: tg;
+}
+
+.checkout_ico {
+  position: relative;
+  top: -22px;
+  background-image: url("../images/cart_ico.png") center no-repeat;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fd5f37', endColorstr='#e84621',GradientType=0 );
+}
+
+.checkout_cr {
+  margin-top: -60px;
+  margin-left: 18px;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc2a00', endColorstr='#f54819',GradientType=0 );
+}
+
+.inner-top-cat {
+  width: 940px;
+  margin: 0 auto;
+}
+.inner-top-cat li {
+  list-style: none;
+  display: inline;
+}
+.inner-top-cat li a {
+  color: #7d7253;
+  font-family: d_b;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 73px;
+  padding: 0 21px 0 21px;
+}
+.inner-top-cat li:hover {
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0e4b8', endColorstr='#fbf2d3',GradientType=0 );
+}
+.inner-top-cat li:hover .sub-cat {
+  display: block;
+}
+
+.sub-cat {
+  position: absolute;
+  display: none;
+}
+.sub-cat li {
+  display: block;
+}
+.sub-cat li a {
+  width: 100%;
+}
+
+/*# sourceMappingURL=ie.css.map */

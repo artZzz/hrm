@@ -1,0 +1,71 @@
+@import "var";
+@font-face {
+	src: url($font_path + 'd_b.eot');
+	font-family: d_b;
+}
+@font-face {
+	src: url($font_path + 'd_b_l.eot');
+	font-family: d_b_l;
+}
+@font-face {
+	src: url($font_path + 'tg.eot');
+	font-family: tg;
+}
+@font-face {
+	src: url($font_path + 'mpr_ie.ttf');
+	font-family: mpr;
+}
+.outer-header {
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f44620', endColorstr='#ff5c2d',GradientType=0 );
+}
+.top-nav {
+	li {
+		display: inline;
+	}
+}
+.slogan {
+	font-family: $font3;
+}
+.checkout_ico {
+	position: relative;
+	top: -22px;
+	background-image: url($img_path + 'cart_ico.png') center no-repeat;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fd5f37', endColorstr='#e84621',GradientType=0 );
+}
+.checkout_cr {
+	margin-top: -60px;
+	margin-left: 18px;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc2a00', endColorstr='#f54819',GradientType=0 );
+}
+.inner-top-cat {
+	width: $m_width;
+	margin: 0 auto;
+	li {
+		list-style: none;
+		display: inline;
+		a{
+			color: #7d7253;
+			font-family: $font1;
+			font-weight: normal;
+			font-size: 16px;
+			line-height: 73px;
+			padding: 0 21px 0 21px;
+		}
+		&:hover {
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0e4b8', endColorstr='#fbf2d3',GradientType=0 );
+		}
+		&:hover .sub-cat {
+			display: block;
+		}
+	}
+}
+.sub-cat {
+	position: absolute;
+	display: none;
+	li {
+		display: block;
+		a {
+			width: 100%;
+		}
+	}
+}
