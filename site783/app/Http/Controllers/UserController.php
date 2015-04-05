@@ -409,6 +409,8 @@ class UserController extends Controller
 				$activateTrue ->activated = '1';
 				$activateTrue ->save();
 
+				return redirect('/');
+
 			}
 
 		}
